@@ -28,6 +28,14 @@
     border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 0.5rem 3rem;
 }
+@media only screen and (max-width:500px) {
+    .game-info{
+       white-space: nowrap;
+       overflow: hidden;
+       text-overflow: clip;
+    }
+    
+}
 
 .tic-tac-toe {
     width: 90%;
